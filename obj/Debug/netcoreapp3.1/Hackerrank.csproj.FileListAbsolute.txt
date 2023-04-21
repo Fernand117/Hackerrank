@@ -1,0 +1,13 @@
+/home/fernando/Documentos/GitHub/Hackerrank/bin/Debug/netcoreapp3.1/Hackerrank
+/home/fernando/Documentos/GitHub/Hackerrank/bin/Debug/netcoreapp3.1/Hackerrank.deps.json
+/home/fernando/Documentos/GitHub/Hackerrank/bin/Debug/netcoreapp3.1/Hackerrank.runtimeconfig.json
+/home/fernando/Documentos/GitHub/Hackerrank/bin/Debug/netcoreapp3.1/Hackerrank.runtimeconfig.dev.json
+/home/fernando/Documentos/GitHub/Hackerrank/bin/Debug/netcoreapp3.1/Hackerrank.dll
+/home/fernando/Documentos/GitHub/Hackerrank/bin/Debug/netcoreapp3.1/Hackerrank.pdb
+/home/fernando/Documentos/GitHub/Hackerrank/obj/Debug/netcoreapp3.1/Hackerrank.csprojAssemblyReference.cache
+/home/fernando/Documentos/GitHub/Hackerrank/obj/Debug/netcoreapp3.1/Hackerrank.AssemblyInfoInputs.cache
+/home/fernando/Documentos/GitHub/Hackerrank/obj/Debug/netcoreapp3.1/Hackerrank.AssemblyInfo.cs
+/home/fernando/Documentos/GitHub/Hackerrank/obj/Debug/netcoreapp3.1/Hackerrank.csproj.CoreCompileInputs.cache
+/home/fernando/Documentos/GitHub/Hackerrank/obj/Debug/netcoreapp3.1/Hackerrank.dll
+/home/fernando/Documentos/GitHub/Hackerrank/obj/Debug/netcoreapp3.1/Hackerrank.pdb
+/home/fernando/Documentos/GitHub/Hackerrank/obj/Debug/netcoreapp3.1/Hackerrank.genruntimeconfig.cache

@@ -1,7 +1,36 @@
+using System.Collections.Generic;
+using System.Linq;
+using System;
+
 namespace Hackerrank
 {
-    public class MiniMaxSum
+    class ResultMMS
     {
-        
+
+        /*
+         * Complete the 'miniMaxSum' function below.
+         *
+         * The function accepts INTEGER_ARRAY arr as parameter.
+         */
+
+        public static void miniMaxSum(List<int> arr)
+        {
+            long sum = arr.Sum();
+            long minSum = sum - arr.Max();
+            long maxSum = sum - arr.Min();
+            Console.WriteLine("{0} {1}", minSum, maxSum);
+        }
+
+    }
+
+    class MiniMaxSum
+    {
+        public static void MiniMaxSumMain(string[] args)
+        {
+
+            List<int> arr = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(arrTemp => Convert.ToInt32(arrTemp)).ToList();
+
+            ResultMMS.miniMaxSum(arr);
+        }
     }
 }
