@@ -16,7 +16,7 @@ namespace Hackerrank
             {
                 if (0 < n && n <= 100)
                 {
-                    if (arr[i] > 0 && arr[i] < 100)
+                    if (arr[i] > 0 && arr[i] <= 100)
                     {
                         pos++;
                     }
@@ -35,7 +35,12 @@ namespace Hackerrank
             float posr = (float)pos / n;
             float ceror = (float)cero / n;
 
-            Console.WriteLine(posr.ToString("F6") + "\n" + negr.ToString("F6") + "\n" + ceror.ToString("F6"));
+            /*float ngr = (float) Math.Pow(neg, -4) / n;
+            float psr = (float) Math.Pow(pos, -4) / n;
+            float cr = (float) Math.Pow(cero, -4) / n;*/
+
+            //Console.WriteLine(psr + "\n" + ngr + "\n" + cr);
+            Console.WriteLine(posr.ToString("0.000000") + "\n" + negr.ToString("0.000000") + "\n" + ceror.ToString("0.000000"));
         }
     }
 

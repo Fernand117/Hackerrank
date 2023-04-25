@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 using System.IO;
 
 namespace Hackerrank
@@ -15,9 +16,10 @@ namespace Hackerrank
 
         public static string timeConversion(string s)
         {
-            DateTime hora24h = DateTime.ParseExact(s, "h:mm:ss tt", null);
-            string hora24str = hora24h.ToString("HH:mm:ss zz");
-            return hora24str;
+            string hora24h = DateTime.ParseExact(s, "hh:mm:sstt", CultureInfo.InvariantCulture).ToString("HH:mm:ss");
+            //string hora24str = hora24h.ToString("HH:mm:ss zz");
+            Console.WriteLine(hora24h);
+            return hora24h;
         }
 
     }

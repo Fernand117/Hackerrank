@@ -15,10 +15,21 @@ namespace Hackerrank
 
         public static void miniMaxSum(List<int> arr)
         {
-            long sum = arr.Sum();
+            long sum = arr.Sum(x => (long)x);
             long minSum = sum - arr.Max();
             long maxSum = sum - arr.Min();
-            Console.WriteLine("{0} {1}", minSum, maxSum);
+
+            if (maxSum > Math.Pow(10, 9))
+            {
+                maxSum = sum - arr.Min();
+            }
+
+            if (minSum > Math.Pow(10, 9))
+            {
+                minSum = sum - arr.Max();
+            }
+
+            Console.WriteLine(minSum + " " + maxSum);
         }
 
     }

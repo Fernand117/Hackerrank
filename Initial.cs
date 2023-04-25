@@ -1,3 +1,5 @@
+using Hackerrank.Day2;
+
 namespace Hackerrank
 {
     public class Initial
@@ -6,7 +8,9 @@ namespace Hackerrank
         {
             //PlusMinus.PlusMinusMain(args);
             //MiniMaxSum.MiniMaxSumMain(args);
-            TimeConversion.MainT(args);
+            //TimeConversion.MainT(args);
+            //MockTest.fizzBuzz(15);
+            LonelyInteger.MainLI(args);
         }
     }
 }
