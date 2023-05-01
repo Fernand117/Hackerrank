@@ -1,3 +1,4 @@
+using Hackerrank.Algorithms;
 using Hackerrank.Day2;
 
 namespace Hackerrank
@@ -10,7 +11,8 @@ namespace Hackerrank
             //MiniMaxSum.MiniMaxSumMain(args);
             //TimeConversion.MainT(args);
             //MockTest.fizzBuzz(15);
-            LonelyInteger.MainLI(args);
+            //LonelyInteger.MainLI(args);
+            BubbleSort.BubSort();
         }
     }
 }
